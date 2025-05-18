@@ -1,4 +1,4 @@
-const BASE_URL = "https://algodevfreaks.onrender.com",
+const BASE_URL = process.env.REACT_APP_BACKEND_URL;
 
 // AUTH ENDPOINTS
 export const endpoints = {
