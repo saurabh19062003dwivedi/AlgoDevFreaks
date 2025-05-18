@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-// import cors from "cors";
+import cors from "cors";
 import "./index.css";
 import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
@@ -10,10 +10,10 @@ import {configureStore} from "@reduxjs/toolkit"
 import { Toaster } from "react-hot-toast";
 
 
-// App.use(cors({
-//   origin: "http://localhost:3000",
-//   credentials: true,
-// }));
+App.use(cors({
+  origin: "https://algo-dev-freaks-git-main-saurabh19062003dwivedis-projects.vercel.app/",
+  credentials: true,
+}));
 
 const store = configureStore({
   reducer:rootReducer,
