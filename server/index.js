@@ -25,7 +25,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin:"http://localhost:3000",
+		origin:"https://algo-dev-freaks-git-main-saurabh19062003dwivedis-projects.vercel.app/",
 		credentials:true,
 	})
 )
